@@ -1,0 +1,232 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+/*************** Sections Colors ************************/
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff; 
+}
+
+
+
+/*************** Section "Title" ************************/
+
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+.container-fluid {
+    padding: 3% 15% 7%; 
+}
+
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem; 
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px; 
+}
+
+.nav-link {
+    font-size: 1.2rem; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;  
+}
+
+/*Title Image*/
+.iphone {
+    width: 60%; 
+    transform: rotate(25deg);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    position:absolute; 
+    right: 30%; 
+    
+}
+
+
+@media (max-width: 1028px) 
+{
+    .iphone 
+{
+    position: static;  
+    transform: rotate(0); 
+
+}
+#title {
+    text-align: center; /
+}
+}
+
+
+
+/*************** Section "Features" ************************/
+
+#features{
+    padding: 7% 15%;
+    
+    position: relative; 
+    z-index: 1; 
+}
+.feature-box { 
+    text-align: center;
+    padding: 5%;  
+} 
+
+/*Font Styles*/
+.easy {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.elite {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+}
+
+.guaranteed {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    
+}
+
+.so-easy {
+    color: #8f8f8f;
+}
+
+.we-have {
+    color: #8f8f8f;
+}
+
+.find {
+    color: #8f8f8f;
+}
+
+
+/* Icon Styles */
+.icon{
+    color: #ef8172;
+    margin-bottom:1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+
+/*************** Section "Testimnial" ************************/
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+ 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    font-size: 3rem;
+    line-height:1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%; 
+}
+
+/*************** Section "Press" ************************/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px; 
+}
+
+
+
+/*************** Section "Pricing" ************************/
+
+#pricing {
+padding:100px;
+text-align: center;
+}
+
+.pricing-column {
+   padding:3% 2%; 
+}
+
+
+/*************** Section "Call to Action" ************************/
+
+#cta {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.true-love {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900; 
+    font-size: 3rem;
+    line-height:1.5;
+    margin-bottom: 30px;
+
+}
+
+
+/*************** Section "Footer" ************************/
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.copyright {
+    color: #8f8f8f;
+}
